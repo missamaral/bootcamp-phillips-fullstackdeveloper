@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset = "UTF-8">
         <title>Introduction to HTML5 and CSS3</title>
         <link rel="stylesheet" href="style.css">
     </head>
+    
     <body>
         <header>
             <img src="missamaral.jpg" alt="Photo of Flávia Amaral's friendly face" class="photo">
-            <p class="intro">Hey, this is me! I've been a kindergarten teacher for over 10 years, but now I want to learn how to code. My students used to call me <b>Miss Amaral</b>, so this will be my moniker as a developer, as well! Welcome to the first ever page I made just for fun!</p>
-            <h1 id="title">What I learned writing this page:
-            </h1>
+            <p class="intro">Hey, this is me! I've been a kindergarten teacher for over 10 years, but now I want to learn how to code. My students used to call me <strong>Miss Amaral</strong>, so this will be my moniker as a developer, as well! Welcome to the first ever page I made just for fun!</p>                
         </header>
+
+        <h1 id="title">What I learned writing this page:</h1>
+
         <section>
             <header>
                 <h2 class="subtitle">HTML5</h2>
@@ -22,10 +24,10 @@
                     <h3 class="post_title">Tags and attributes</h3>
                     <img src="html-page.jpg" class="post_image" alt="Image of a computer screen showing HTML code">
                 </header>
-                <p>Here, I used my first element tags in HTML. "p" stands for "paragraph", and "a" stands for anchor. Paragraph organizes your text, images, videos, and other types of content. Anchor links other elements in the web. Two important attributes of Anchor are "href" (hyperlink reference), which points to a link, and "target", which specifies whether the new page will open in the same tab, a different tab or a different window. </p>
-                <p>Here is a <a href = "https://www.linkedin.com/in/fl%C3%A1via-amaral-5b679219/" target = "_blank">link to my LinkedIn profile</a>. Because I attributed "_blank" to my target tag, it will open on a different tab. And here is a <a href = "mailto:flaviamaral@gmail.com">link to send me an email.</a></p>
-                <p>"img" was another tag that I learned. I used it to include images on this page, with alternative text for accessibility screen readers.</p>
-                <p>The last tags I learned were the ones that help me make lists in HTML. I made a list of the tags I learned in this short class. If I wanted my list to be ordered with numbers, I could use the "ol" (ordered list) tag instead.</p>
+                <p>Here, I used my first element tags in HTML. <em>p</em> stands for <em>paragraph</em>, and <em>a</em> stands for <em>anchor</em>. Paragraph organizes your text, images, videos, and other types of content. Anchor links other elements in the web. Two important attributes of Anchor are <em>href</em> (hyperlink reference), which points to a link, and <em>target</em>, which specifies whether the new page will open in the same tab, a different tab or a different window. </p>
+                <p>Here is a <a href = "https://www.linkedin.com/in/fl%C3%A1via-amaral-5b679219/" target = "_blank">link to my LinkedIn profile</a>. Because I attributed <em>_blank</em> to my target tag, it will open on a different tab. And here is a <a href = "mailto:flaviamaral@gmail.com">link to send me an email.</a></p>
+                <p><em>img</em> was another tag that I learned. I used it to include images on this page, with alternative text for accessibility screen readers. Using the tags <em>em</em> for emphasis and <em>strong</em> for strong emphasis also help accessibility.</p>
+                <p>The last tags I learned were the ones that help me make lists in HTML. I made a list of the tags I learned in this short class. If I wanted my list to be ordered with numbers, I could use the <em>ol</em> (ordered list) tag instead.</p>
                 <ul>
                     <li>html</li>
                     <li>head</li>
@@ -48,30 +50,32 @@
                 <h2 class="subtitle">CSS3</h2>
             </header>
             <article class="post">
-                <p class="post_content">CSS3 allows devs to create style rules for HTML elements, making it easier to change colors, sizes, fonts and more. All I had to do was link my css stylesheet to the index HTML page, using the tag "link" inside the "head" element.</p>
+                <p class="post_content">CSS3 allows devs to create style rules for HTML elements, making it easier to change colors, sizes, fonts and more. All I had to do was link my css stylesheet to the index HTML page, using the tag <em>link</em> inside the <em>head</em> element.</p>
                 <header>
                     <h3 class="post_title">Selectors and declarations</h3>
                     <img src="css-stylesheet.jpg" class="post_image" alt="Image of a computer screen showing CSS styles">
                 </header>
-                <p>CSS3 tags are called selectors, because they select which HTML elements will be styled. Selectors can be a "class" or an "id". In the stylesheet, I reference a class using a dot (.) and a class using a hashtag(#). Once I selected my HTML elements, I declare what I want them to look like. Declaration blocks come inside curly brackets, and each declaration inside the block is followed by a semicolon.</p>
-                <p>These were the attributes I used to declare the styles of my page:</p>
+                <p>CSS3 tags are called selectors, because they select which HTML elements will be styled. Selectors can be a <em>class</em> or an <em>id</em>. In the stylesheet, I reference a class using a dot (.) and a class using a hashtag(#). Once I selected my HTML elements, I declare what I want them to look like. Declaration blocks come inside curly brackets, and each declaration inside the block is followed by a semicolon.</p>
+                <p>These were some attributes I used to declare the styles of my page:</p>
                 <ul>
                     <li>background</li>
                     <li>color</li>
                     <li>font-size</li>
                     <li>font-style</li>
                 </ul>
-                <p>As shown by "font-size" and "font-style", I can make the attributes more specific by adding information with a dash (-).</p>
-                <p>I learned what a box model is, and that every box model has a margin (spaces between elements), a border (space around padding and content), a padding (space between the border and content) and some kind of content inside the padding. Margins can have the same value all around the border, or separate values for each one. Borders can be solid, dotted or dashed. The attribute "border-radius" was used to make the borders of each section round. The same attribute was used to make my photo at the top round, even though my original image file was rectangular (border-radius: 50%). </p>
-                <p>I also learned to style my lists with "list-style-type", justify my text with "text-align: justify", and keep my images inside their containers with "max-width: 100%". Most importantly, I made my page fit any screen size adding these declarations to my body element:</p>
-                    <ul class="body-styling-list">
-                        <li>max-width: 900px</li>
-                        <li>max-width: 900px;
-                            margin: auto;</li>
-                    </ul>
+                <p>As shown by <em>font-size</em> and <em>font-style</em>, I can make the attributes more specific by adding information with a dash (-).</p>
+                <p>I learned what a box model is, and that every box model has a <em>margin</em> (spaces between elements), a <em>border</em> (space around padding and content), a <em>padding</em> (space between the border and content) and some kind of <em>content</em> inside the padding. Margins can have the same value all around the border, or separate values for each one. Borders can be solid, dotted or dashed. The attribute <em>border-radius</em> was used to make the borders of each section round. The same attribute was used to make my photo at the top round, even though my original image file was rectangular (border-radius: 50%). </p>
+                <p>I also learned to style my lists with <em>list-style-type</em>, justify my text with <em>text-align: justify</em>, and keep my images inside their containers with <em>max-width: 100%</em>. Most importantly, I made my page fit any screen size by adding these declarations to my body element:</p>
+                    <aside><ul class="body-styling-list">
+                        <li>body {</li>
+                        <li>max-width: 900px;</li>
+                        <li>margin: auto;</li>
+                        <li>}</li>
+                    </ul></aside>
+                    <p>Finally, I did some research to find out how to place my introduction text next to my profile photo, and I learned how to use <em>display: inline-block</em> to stop my photo from blocking an entire line, then <em>width percentages</em> to make that design responsive. Now you'll see a tiny profile pic if you're on your phone, or a bigger one if you're on a desktop monitor.</p>
                     <p>And that's it for today!</p>
             </article>
         </section>
-        <footer>Nothing much to see here yet. Pretty basic. But just you wait and see what I can do when I keep studying!</footer>
+        <footer>Nothing much to see here yet. Pretty basic stuff. But just you wait and see what I can do when I keep studying!</footer>
     </body>
 </html>

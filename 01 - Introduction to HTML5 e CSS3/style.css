@@ -1,7 +1,7 @@
 body {
 background-color: bisque;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-max-width: 900px;
+max-width: 90%;
 margin: auto;
 }
     
@@ -17,16 +17,27 @@ p {
     text-align: justify;
 }
 
+header {
+    margin-top: 25px;
+}
+
 .photo {
     border-radius: 50%;
     border: 5px;
-    margin-top: 20px;
+    margin-left: 5%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
 }
 
 .intro {
     border: 4px dotted crimson;
     padding: 10px;
     background-color: rgb(255, 245, 203);
+    width: 60%;
+    margin-left: 3%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .post_title {
