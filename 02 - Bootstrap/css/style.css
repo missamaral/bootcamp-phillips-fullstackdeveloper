@@ -1,0 +1,38 @@
+
+.navbar {
+    background-color: #4B2F71;
+}
+
+#navigationbar {
+    background-color: #F3EFF9;
+}
+
+#containers {
+    background-color: #E4D4FC;
+}
+
+#navigationlists {
+    background-color: #F3EFF9;
+}
+
+.margin {
+    margin-bottom: 20px;
+}
+
+.section-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.img-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+.bg-footer {
+    background-color: #4B2F71;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
