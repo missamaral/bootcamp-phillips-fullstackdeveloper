@@ -1,0 +1,80 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    color: white;
+    background-color: teal;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    width: 600px;
+    overflow: hidden;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#links {
+    flex-grow: 1;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+main {
+    margin-top: 130px;    
+}
+
+section {
+    
+}
+
+#learning {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 860px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.step {
+    min-width: 15px;
+    max-width: 100px;
+    text-align: center;
+    /* border: 1px solid; */
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+}
