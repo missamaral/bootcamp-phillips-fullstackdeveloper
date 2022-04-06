@@ -1,0 +1,81 @@
+console.log();
+
+typeof
+
+forEach(); iterates an array
+push(); add item at the end of array
+pop(); remove item at beginning of array
+shift(); remove item at beginning of array
+unshift(); add item at beginning of array
+indexOf(); returns the index of a value
+splice(); removes or substitutes an item by its index
+slice(); returns a part of an existing array
+
+array.forEach(function(item, index){console.log(item, index)})
+
+array.unshift('new item at the beginning');
+
+array.splice(0, 3) - deletes elements from the array starting at index 0 and onto index 3. returns a new array with the undeleted elements
+
+array.slice(0, 3); - slices an array and returns the section passed in the parameters (start at index 0 e end at index 3)
+
+var string = object.string; - searches the object for the desired attribute and returns its value
+
+var {} = object; - creates a new object from the previously created object; you can select only the keys that are relevant to your code
+
+if (<condition>) {
+<instruction>
+}
+
+ternary operator - <condition> ? <instruction true> : <instruction false>
+
+switch case - 
+switch (scores) {
+       case scores = player1 > player2:
+	console.log('Player 1 wins');
+	break;
+       case scores = player1 > player2:
+	console.log('Player 2 wins');
+	break;
+       default:
+	console.log('It's a tie');
+
+for(let index = 0; index < array.length; index++) {
+	console.log(index);
+}
+
+for (i in array) {
+	console.log(i);
+}
+
+for (i in object) {
+console.log(i);
+}
+
+for (i of array) {
+console.log(i);
+}
+
+for (i of object.property) {
+console.log (i);
+}
+
+while (a <10) {
+a++;
+console.log(a)
+}
+
+do {
+a++;
+console.log(a)
+} while (a < 10)
+
+function funcao () {
+console.log("instruction")
+}
+
+var function = () => {}
+
+Number()
+prompt('question or request')
+alert('pop-up message')
