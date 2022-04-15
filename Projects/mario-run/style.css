@@ -1,0 +1,59 @@
+body {
+    background: #079BB0;
+
+}
+
+.hud {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: xx-large  ;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.mario {
+    width: 90px;
+    height: 90px;
+    background-image: url(img/mario.gif);
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.goomba {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url(img/goomba.png);
+    background-size: contain;
+}
+
+.game-over {
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+    font-family: arial;
+}
+
+@keyframes slideleft {
+    from {
+        background-position: 0
+    }
+
+    to {
+        background-position: 70000%;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background-image: url(img/background.png);
+    background-repeat: repeat-x;
+    animation: slideleft 16000s infinite linear;
+    background-size: 10000px 800px;
+    width: 100%;
+    height: 640px;
+}
