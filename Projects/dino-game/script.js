@@ -57,7 +57,6 @@ function createCactus() {
         }
     }, 20);
 
-    document.hud.innerHTML = score;
     setTimeout(createCactus, randomTime);
 }
 

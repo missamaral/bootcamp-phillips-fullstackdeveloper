@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -42,9 +43,6 @@ p {
     text-align: center;
     width: 80%;
     margin: auto;
-}
-
-section {
 }
 
 #learning, #education, #experience {
@@ -90,6 +88,7 @@ img {
 .course {
     min-width: 20px;
     max-width: 300px;
+    min-height: 200px;
     max-height: 250px;
     text-align: left;
     margin: 40px 20px 10px;

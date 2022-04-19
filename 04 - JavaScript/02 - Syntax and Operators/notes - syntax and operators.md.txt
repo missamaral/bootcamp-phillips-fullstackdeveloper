@@ -1,0 +1,22 @@
+x += y : x = x+y
+x *= y : x = x*y
+x /= y : x = x/y
+x %= y : x = x%y
+
+++ : incremento de 1 em 1
+-- : decremento de 1 em 1
+
+= atribuição
+== igualdade (valor)
+=== igualdade (valor e tipo)
+!= diferente
+!== valor e tipo diferentes
+>= maior ou igual
+<= menor ou igual
+
+&& e lógico
+|| ou lógico
+! não lógico
+
+condicional ternário
+condition ? expression1 : expression2
