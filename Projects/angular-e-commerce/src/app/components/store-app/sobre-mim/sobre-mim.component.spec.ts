@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StoreAppComponent } from './store-app.component';
+import { SobreMimComponent } from './sobre-mim.component';
 
-describe('StoreAppComponent', () => {
-  let component: StoreAppComponent;
-  let fixture: ComponentFixture<StoreAppComponent>;
+describe('SobreMimComponent', () => {
+  let component: SobreMimComponent;
+  let fixture: ComponentFixture<SobreMimComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ StoreAppComponent ]
+      declarations: [ SobreMimComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(StoreAppComponent);
+    fixture = TestBed.createComponent(SobreMimComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

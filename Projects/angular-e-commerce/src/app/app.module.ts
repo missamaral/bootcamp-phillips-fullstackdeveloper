@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { NavComponent } from './components/shared/nav/nav.component';
-import { StoreAppComponent } from './components/store-app/store-app.component';
 import { CourseListComponent } from './components/store-app/course-list/course-list.component';
 import { CourseComponent } from './components/store-app/course-list/course/course.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CourseService } from './components/store-app/course-list/course-list.component.service';
+import { RouterModule } from '@angular/router';
+import { SobreMimComponent } from './components/store-app/sobre-mim/sobre-mim.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +19,25 @@ import { CourseService } from './components/store-app/course-list/course-list.co
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    StoreAppComponent,
     CourseListComponent,
-    CourseComponent
+    CourseComponent,
+    SobreMimComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot([
+      {
+        path:'', redirectTo: 'courses', pathMatch: 'full'
+      },
+      {
+        path: 'courses', component:CourseListComponent
+      },
+      {
+        path: 'sobremim', component:SobreMimComponent
+      },
+    ])
   ],
   providers: [CourseService],
   bootstrap: [AppComponent]
